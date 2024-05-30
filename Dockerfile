@@ -6,4 +6,4 @@ COPY . /MisinformationProject
 
 RUN pip install -r requirements.txt
 
-CMD uvicorn Application:Application --port=8080 --host=0.0.0.0
+CMD hypercorn Application:Application --port=8080 --host=0.0.0.0
