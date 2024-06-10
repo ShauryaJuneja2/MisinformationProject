@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MisinformationProject.iml" filepath="$PROJECT_DIR$/.idea/MisinformationProject.iml" />
+      <module fileurl="file://$USER_HOME$/dev/UnrealCurryWebsite/.idea/learningfrontendday3.iml" filepath="$USER_HOME$/dev/UnrealCurryWebsite/.idea/learningfrontendday3.iml" />
     </modules>
   </component>
 </project>
