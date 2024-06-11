@@ -10,6 +10,22 @@ body {
     font-weight: 300;
 }
 
+.hero {
+    .hero-text-small {
+        font-size: 3rem;
+    }
+    .hero-text-large {
+        font-size: 5rem;
+        background: linear-gradient(red, #B60000);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    p {
+        font-weight: 900;
+    }
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -117,7 +133,7 @@ strong {
 
 .expandable:hover {
     width: 30em;
-    height: 20em;
+    height: 15em;
 }
 
 .expanded {
@@ -129,10 +145,5 @@ strong {
 }
 
 .footer {
-    ul {
-        text-align: center;
-        width: 100%;
-        list-style-position: inside;
-        font-size: 2rem;
-    }
+    padding: 5em;
 }

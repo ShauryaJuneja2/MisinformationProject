@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     expandables.forEach(element => {
         element.addEventListener('mouseenter', () => {
-            element.style.width = '30em';
-            element.style.height = '20em';
+            element.style.width = '40em';
+            element.style.height = '15em';
 
             const expanded = element.querySelector('.expanded');
             const minimized = element.querySelector('.minimized');
